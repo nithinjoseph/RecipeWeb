@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.searchInput{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin: 80px 0;
+}
+.searchInput input{
+  width: 40%;
+  height: 40px;
+  padding: 8px 12px;
+  background: rgb(230, 230, 232);
+  border: 1px solid rgb(230, 230, 232);
+  border-radius: 6px;
+  transition: all 1s ease-out;
+  }
+  .searchInput input:focus{
+    outline: 0;
+    border: 1px solid orangered;
+    
+  }
+  .card{
+    width: 25%;
+    border: 1px solid #6666;
+    border-radius: 5px;
+  }
+  .card img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .card-wrapper{
+    display: flex;
+    gap: 20px;
+  }
+  .card h3{
+    margin: 0 14px;
+    font-size: 18px;
+
+  }
+  .card h2{
+    margin: 0 14px 30px 14px;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(151, 151, 151);
+  }
+
+
